@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(54, 54, 54);
+            margin: 10px;
+        }
+        header{
+        
+            background-color: #b9ffd0;
+            padding: 10px;
+        }
+        main{
+            background-color: #00dd4a;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+
+        }
+
+        article{
+           background-color: #00b33c;
+        }
+        article > aside{
+            background-color: #6b6b6b;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        footer{
+            background-color: #003311;
+            color: #aaffc6;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: rgb(17, 43, 17);
+            font-weight: bold;
+            margin-right: 30px;
+            
+        }
+        nav{
+           background-color: #6b6b6b;
+           padding: 3px;
+           box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.411)  
+                 
+        }
+        footer > p { 
+            margin: 0px;
+
+        }
+        #bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: #00b33c;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+   <header>
+    <h1>meu site</h1>
+    <nav> 
+        <a href="">cavalos</a>
+        <a href="">cavalos</a>
+        <a href=""></a>
+        <a href=""></a>
+    </nav>
+   </header>
+   <main>
+    <section id="assuntos"></section>
+    esportes politicas Tecnologias
+    <section id="noticias">
+        <article>
+            <h2>noticias sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet perferendis officia eum exercitationem nostrum libero, velit iste facere repellat quae optio eaque sequi dolorum eius asperiores aperiam itaque omnis dolor!</p>
+
+            <aside>
+                <p>artigo escrito por Jose da Silva</p>
+            </aside>
+        </article>
+        <article></article>
+    </section>
+   </main>
+   <footer>
+     <p>Desenvolvido pelo o CursoemVideo</p>
+   </footer>
+   <div id="bola"></div>
+</body>
+</html>
